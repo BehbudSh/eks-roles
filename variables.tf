@@ -1,3 +1,13 @@
+variable "config_path" {
+  type = string
+  description = "Kube config file path"
+}
+
+variable "config_context" {
+  type = string
+  description = "Name of the context"
+}
+
 variable "namespace" {
   type = string
   
